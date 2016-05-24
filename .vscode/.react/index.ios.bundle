@@ -1408,6 +1408,15 @@ return arr2;}else
 return Array.from(arr);}};
 })(typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : this);
 __d(0 /* Minos/index.ios.js */, function(global, require, module, exports) {var _root=require(415 /* ./src/containers/root */);var _root2=babelHelpers.interopRequireDefault(_root);
+
+
+
+
+
+
+
+
+
 var _reactNative=require(423 /* react-native */);
 
 _reactNative.AppRegistry.registerComponent('Minos',function(){return _root2.default;});
