@@ -35,7 +35,7 @@ export default class Scene extends Component {
                 renderScene={this.renderScene}
                 initialRoute={{
                     component: App,
-                    title: 'Minos'
+                    title: 'Redux Starter Kit'
                 }}
                 />
         );

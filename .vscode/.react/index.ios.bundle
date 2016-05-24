@@ -6746,7 +6746,7 @@ style:{flex:1},
 renderScene:this.renderScene,
 initialRoute:{
 component:_app2.default,
-title:'Minos'},__source:{fileName:_jsxFileName,lineNumber:33}}));}}]);return Scene;}(_react.Component);exports.default=Scene;
+title:'Redux Starter Kit'},__source:{fileName:_jsxFileName,lineNumber:33}}));}}]);return Scene;}(_react.Component);exports.default=Scene;
 });
 __d(423 /* react-native/Libraries/react-native/react-native.js */, function(global, require, module, exports) {'use strict';
 
