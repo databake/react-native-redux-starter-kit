@@ -3,10 +3,7 @@
 import { combineReducers } from 'redux';
 import * as types from '../actions';
 
-const data = (state = {
-    isFetching: false,
-    message: ''
-}, action) => {
+export const data = (state = { isFetching: false, message: ''}, action) => {
     switch (action.type) {
         case types.REQUEST_DATA:
             return Object.assign({}, state, {

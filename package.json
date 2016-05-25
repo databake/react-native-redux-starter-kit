@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest --no-cache"
   },
   "dependencies": {
     "react": "^15.0.2",
@@ -16,9 +16,11 @@
   },
   "devDependencies": {
     "babel-jest": "^12.1.0",
-    "jest-cli": "^12.1.0"
+    "jest-cli": "^12.1.0",
+    "redux-mock-store": "^1.0.3"
   },
   "jest": {
+    "setupEnvScriptFile": "./node_modules/react-native/jestSupport/env.js",
     "haste": {
       "defaultPlatform": "ios",
       "platforms": [
@@ -28,6 +30,6 @@
       "providesModuleNodeModules": [
         "react-native"
       ]
-    } 
+    }
   }
 }

@@ -23,6 +23,6 @@ export const fetchData = (): Function => {
         return setTimeout(() => {
             const data = { message: 'Hello' };
             dispatch(receiveData(data));
-        }, 2000);
+        }, 300);
     };
 };
